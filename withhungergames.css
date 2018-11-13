@@ -34,6 +34,18 @@
 	text-decoration: none;
 }
 
+.column {
+  float: center;
+  width: 25.00%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .wrapper a:hover {
 	color: #f76707;
 }
@@ -41,9 +53,10 @@
 h2 {
 	color: #f76707;
 	font-family: 'Cinzel', serif;
-	font-size: 20px;
+	font-size: 18px;
 }
 
+
 body {
-	color: #ffb096;
+	background-color: #ffb096;
 }

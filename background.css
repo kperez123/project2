@@ -1,25 +1,54 @@
-#navbar {
-  overflow: hidden;
-  background-color: black;
-  font-family: 'Cinzel', serif;
-  border-color: #f5bb0e;
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 5fr);
+  grid-gap: 160px;
+  grid-auto-rows: 100px;
 }
 
-#navbar:hover {
-	background: #f5bb0e;
-	color: yellow;
+
+.wrapper {
+    border: 2px solid #f76707;
+    border-radius: 1px;
+    background-color: black;
 }
 
-.navbar a:hover {
-	color: white;
-}
-
-#navbar a{
+.wrapper > div {
+    
+    background-color: black;
+    padding: 3em;
 	float: center;
-	display: block;
-	color: #ff782a;
+	text-align: center;
+	display: black;
+	color: #f76707;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
+}
+
+.wrapper a:hover {
+	color: #f76707;
+}
+
+h2 {
+	color: #f76707;
+	font-family: 'Cinzel', serif;
+	font-size: 18px;
+}
+
+
+body {
+	background-color: #ffb096;
+}
+
+.column {
+  float: center;
+  width: 100.00%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
