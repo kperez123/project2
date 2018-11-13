@@ -1,0 +1,25 @@
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Cinzel', serif;
+  border-color: #f5bb0e;
+
+}
+
+#navbar:hover {
+	background: #f5bb0e;
+	color: yellow;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+#navbar a{
+	float: center;
+	display: block;
+	color: #ff782a;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}

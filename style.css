@@ -1,0 +1,76 @@
+
+
+body {
+	background-color: black;
+}
+
+h1 {
+	color: #6ea6af;
+	font-family: 'Cinzel', serif;
+}
+
+p {
+	color: #a8ecf0;
+	font-family: 'Unica One', cursive;
+}
+
+
+div {
+	text-align: justify;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Cinzel', serif;
+  border-color: #f5bb0e;
+
+}
+
+#navbar:hover {
+	background: #f5bb0e;
+	color: yellow;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+#navbar a{
+	float: center;
+	display: block;
+	color: #ff782a;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/ZHtjgxzU7y4/hqdefault.jpg");
+    height: 50%;
+    /* testing */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
