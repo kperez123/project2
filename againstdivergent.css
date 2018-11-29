@@ -6,13 +6,20 @@
   grid-auto-rows: 100px;
 }
 
+
+
 body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAoMLt9wrEWl4GfcWt2I7oqIstMS8Q4inUbmKDNJ43j5126NYk");
+    background-repeat: no-repeat;
+	background-size: 2000px 1000px;
 	background-color: #ffb096;
 }
 
 p {
-	color: #cef0f2;
+	color: black;
 	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+	text-align: center;
 }
 
 
@@ -35,11 +42,12 @@ h3 {
 	float: center;
 	text-align: center;
 	display: black;
-	color: #f76707;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
 }
+
+
 
 .wrapper a:hover {
 	color: #f76707;

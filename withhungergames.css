@@ -38,6 +38,8 @@
   float: center;
   width: 25.00%;
   padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row::after {
@@ -56,7 +58,15 @@ h2 {
 	font-size: 18px;
 }
 
+p {
+	color: black;
+	font-size: 18px;
+	font-family: 'Slabo 27px', serif;
+}
 
 body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAoMLt9wrEWl4GfcWt2I7oqIstMS8Q4inUbmKDNJ43j5126NYk");
+    background-repeat: no-repeat;
+	background-size: 2000px 1000px;
 	background-color: #ffb096;
 }
